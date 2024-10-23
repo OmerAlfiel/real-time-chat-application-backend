@@ -71,3 +71,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+
+Description
+This project is a real-time chat application built using the NestJS framework, TypeScript, and WebSockets. It leverages PostgreSQL for data storage and TypeORM for database interactions. The application includes user authentication, allowing users to register and log in, and supports real-time messaging between connected clients.
+
+Key Features
+User Authentication: Users can register and log in using the endpoints provided by the AuthController.
+Real-Time Messaging: The application uses WebSockets to enable real-time communication between users, managed by the ChatGateway.
+Database Integration: PostgreSQL is used as the database, with TypeORM handling the ORM layer. Entities like User and Message are defined to structure the data.
+Modular Architecture: The application is divided into modules such as AuthModule, UsersModule, and ChatModule for better organization and maintainability.
+Testing: Unit tests are provided for various components, including ChatService and ChatController.
